@@ -79,7 +79,7 @@ async def listen_binance_liquidations(ctx: AppContext):
 
 # Initialize FastMCP server
 mcp = FastMCP(
-    name="Crypto Liquidation MCP",
+    name="Crypto Liquidations MCP",
     lifespan=app_lifespan,
     dependencies=["websockets"]
 )

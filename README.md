@@ -1,4 +1,4 @@
-# Crypto Liquidation MCP
+# Crypto Liquidations MCP
 
 An MCP server that streams real-time cryptocurrency liquidation events from Binance, enabling AI agents to react instantly to high-volatility market movements.
 
@@ -28,8 +28,8 @@ An MCP server that streams real-time cryptocurrency liquidation events from Bina
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/kukapay/crypto-liquidation-mcp.git
-cd crypto-liquidation-mcp
+git clone https://github.com/kukapay/crypto-liquidations-mcp.git
+cd crypto-liquidations-mcp
 ```
 
 ### 2. Install Dependencies
@@ -43,9 +43,9 @@ Configure your MCP client to connect to the server. For Claude Desktop:
 ```json
 {
  "mcpServers": {
-   "crypto-liquidation": {
+   "crypto-liquidations": {
      "command": "uv",
-     "args": ["--directory", "/path/to/crypto-liquidation-mcp", "run", "main.py"]
+     "args": ["--directory", "/path/to/crypto-liquidations-mcp", "run", "main.py"]
    }
  }
 }
