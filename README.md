@@ -1,4 +1,5 @@
 # Crypto Liquidations MCP
+[![smithery badge](https://smithery.ai/badge/@kukapay/crypto-liquidations-mcp)](https://smithery.ai/server/@kukapay/crypto-liquidations-mcp)
 
 An MCP server that streams real-time cryptocurrency liquidation events from Binance, enabling AI agents to react instantly to high-volatility market movements.
 
@@ -25,6 +26,14 @@ An MCP server that streams real-time cryptocurrency liquidation events from Bina
 - **Internet Access**: To connect to Binance WebSocket.
 
 ## Installation
+
+### Installing via Smithery
+
+To install Crypto Liquidations for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kukapay/crypto-liquidations-mcp):
+
+```bash
+npx -y @smithery/cli install @kukapay/crypto-liquidations-mcp --client claude
+```
 
 ### 1. Clone the Repository
 ```bash
@@ -84,4 +93,3 @@ This is particularly useful for understanding broader market dynamics, such as w
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
